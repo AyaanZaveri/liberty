@@ -52,7 +52,7 @@ const Home: NextPage = () => {
           <input
             value={input}
             type="text"
-            className="rounded-md w-full border border-slate-200 bg-white px-4 py-2 text-slate-600 shadow-lg shadow-slate-100 transition duration-300 ease-in-out hover:bg-slate-50 focus:border-amber-500 focus:outline-none focus:ring focus:ring-amber-200 active:bg-amber-100 dark:border-slate-600 dark:bg-slate-700 dark:text-white dark:hover:bg-slate-600"
+            className="rounded-md w-full border border-slate-200 bg-white px-4 py-2 text-slate-600 shadow-lg shadow-slate-100 transition duration-300 ease-in-out hover:bg-slate-50 focus:border-amber-500 focus:outline-none focus:ring focus:ring-amber-200 active:bg-amber-100"
             onChange={(e) => setInput(e.target.value)}
             placeholder="Type a message..."
           />
