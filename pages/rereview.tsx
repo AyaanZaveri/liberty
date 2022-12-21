@@ -65,7 +65,7 @@ const ReReview: NextPage = () => {
           <input
             value={input}
             type="text"
-            className="rounded-md w-full border border-slate-200 bg-white px-4 py-2 text-slate-600 shadow-lg shadow-slate-100 transition duration-300 ease-in-out hover:bg-slate-50 focus:border-indigo-500 focus:outline-none focus:ring focus:ring-indigo-200 active:bg-indigo-100 dark:border-slate-600 dark:bg-slate-700 dark:text-white dark:hover:bg-slate-600"
+            className="rounded-md w-full border border-slate-200 bg-white px-4 py-2 text-slate-600 shadow-lg shadow-slate-100 transition duration-300 ease-in-out hover:bg-slate-50 focus:border-indigo-500 focus:outline-none focus:ring focus:ring-indigo-200 active:bg-indigo-100"
             onChange={(e) => setInput(e.target.value)}
             placeholder="ReReview a review... 💫"
           />
@@ -85,7 +85,7 @@ const ReReview: NextPage = () => {
                 </b>
                 {predictions?.prompt}
               </span>
-              <hr className="my-2 h-px bg-gray-200 border-0 dark:bg-gray-700" />
+              <hr className="my-2 h-px bg-gray-200 border-0" />
 
               <div className="text-slate-700 w-2/3">
                 <b className="text-lg text-indigo-500">
